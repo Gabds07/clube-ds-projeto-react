@@ -1,6 +1,7 @@
 import PageHead from "../components/ui/PageHead";
 import Card from "../components/ui/Card";
 import Pill from "../components/ui/Pill";
+import Button from "../components/ui/Button";
 import { events } from "../data/events";
 
 export default function Eventos() {
@@ -23,9 +24,9 @@ export default function Eventos() {
                 <p className="muted">{event.fullDescription ?? event.description}</p>
                 <div className="event__footer">
                   <span className="muted">Data: {event.date}</span>
-                  <a className="btn btn--ghost" href={event.pageCtaHref ?? event.ctaHref}>
+                  <Button variant="ghost" href={event.pageCtaHref ?? event.ctaHref}>
                     {event.pageCtaLabel ?? event.ctaLabel}
-                  </a>
+                  </Button>
                 </div>
               </Card>
             ))}

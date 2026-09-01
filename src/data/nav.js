@@ -8,6 +8,6 @@ export const navLinks = [
 export const footerLinks = [
   { href: "/atividades", label: "Atividades" },
   { href: "/eventos", label: "Eventos" },
-  { href: "cadastro.html", label: "Cadastro" },
+  { href: "/cadastro", label: "Cadastro" },
   { href: "#faq", label: "FAQ" },
 ];

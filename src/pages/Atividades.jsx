@@ -17,7 +17,7 @@ export default function Atividades() {
             title="Quer receber o calendário?"
             description="Cadastre-se para receber as datas das próximas atividades."
             buttonLabel="Fazer cadastro"
-            buttonHref="cadastro.html"
+            buttonHref="/cadastro"
           />
         </div>
       </section>

@@ -7,9 +7,9 @@ export const events = [
     fullDescription: "Branch, pull request e revisão de código com um mini-projeto.",
     date: "a definir",
     ctaLabel: "Ver todos",
-    ctaHref: "eventos.html",
+    ctaHref: "/eventos",
     pageCtaLabel: "Quero participar",
-    pageCtaHref: "cadastro.html",
+    pageCtaHref: "/cadastro",
   },
   {
     type: "Palestra",
@@ -19,8 +19,8 @@ export const events = [
     fullDescription: "O que colocar, como apresentar e como evoluir seus projetos.",
     date: "a definir",
     ctaLabel: "Receber aviso",
-    ctaHref: "cadastro.html",
+    ctaHref: "/cadastro",
     pageCtaLabel: "Receber aviso",
-    pageCtaHref: "cadastro.html",
+    pageCtaHref: "/cadastro",
   },
 ];

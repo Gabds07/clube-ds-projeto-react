@@ -37,7 +37,7 @@ export default function Hero() {
           </p>
 
           <div className="hero__actions">
-            <Button href="cadastro.html">Quero me cadastrar</Button>
+            <Button href="/cadastro">Quero me cadastrar</Button>
             <Button href="#como-funciona" variant="ghost">
               Como funciona
             </Button>

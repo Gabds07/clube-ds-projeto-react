@@ -43,7 +43,7 @@ export default function About({ checks = defaultChecks, deliverables = defaultDe
                 <li key={item}>{item}</li>
               ))}
             </ul>
-            <Button href="cadastro.html" block>
+            <Button href="/cadastro" block>
               Entrar no clube
             </Button>
           </div>

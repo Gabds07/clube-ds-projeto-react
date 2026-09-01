@@ -25,7 +25,7 @@ export default function FAQ({ items = faq }) {
             <h3>Pronto para entrar?</h3>
             <p>Faça seu cadastro e receba as próximas datas de oficinas e palestras.</p>
           </div>
-          <Button href="cadastro.html">Cadastrar agora</Button>
+          <Button href="/cadastro">Cadastrar agora</Button>
         </div>
       </div>
     </section>

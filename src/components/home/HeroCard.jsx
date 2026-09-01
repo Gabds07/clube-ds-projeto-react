@@ -25,7 +25,7 @@ export default function HeroCard({ kpis, stats }) {
           * A participação completa nas atividades exige matrícula ativa.
         </p>
 
-        <Button href="atividades.html" block>
+        <Button href="/atividades" block>
           Ver atividades
         </Button>
       </div>

@@ -53,9 +53,15 @@ export default function Header() {
               </a>
             )
           )}
-          <a href="cadastro.html" className="nav__link nav__cta">
+          <NavLink
+            to="/cadastro"
+            className={({ isActive }) =>
+              ["nav__link", "nav__cta", isActive ? "is-active" : ""].filter(Boolean).join(" ")
+            }
+            onClick={closeMenu}
+          >
             Quero participar
-          </a>
+          </NavLink>
         </nav>
       </div>
     </header>

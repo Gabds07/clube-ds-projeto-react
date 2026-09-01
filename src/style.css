@@ -519,6 +519,15 @@ p { margin: 0; }
 }
 .note strong { color: var(--text); }
 
+/* ---------- Cadastro ---------- */
+.form { display: flex; flex-direction: column; align-items: center; text-align: center; gap: 18px; }
+.form__image { border-radius: var(--radius-m); }
+.form .btn { width: 100%; }
+
+.steps { display: flex; flex-direction: column; gap: 10px; padding-left: 20px; margin-top: 14px; }
+.steps li { color: var(--text-dim); font-size: 0.92rem; padding-left: 4px; }
+.steps li::marker { color: var(--accent); font-family: var(--font-mono); font-weight: 600; }
+
 /* ---------- Footer ---------- */
 .footer { border-top: 1px solid var(--border-soft); padding: 48px 0 32px; }
 .footer__grid {
