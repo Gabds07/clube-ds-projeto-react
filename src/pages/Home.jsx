@@ -4,7 +4,6 @@ import HowItWorks from "../components/home/HowItWorks";
 import About from "../components/home/About";
 import Trails from "../components/home/Trails";
 import UpcomingEvents from "../components/home/UpcomingEvents";
-import Gallery from "../components/home/Gallery";
 import Team from "../components/home/Team";
 import Rules from "../components/home/Rules";
 import FAQ from "../components/home/FAQ";
@@ -18,7 +17,6 @@ export default function Home() {
       <About />
       <Trails />
       <UpcomingEvents />
-      <Gallery />
       <Team />
       <Rules />
       <FAQ />

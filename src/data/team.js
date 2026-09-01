@@ -2,13 +2,13 @@ export const team = [
   {
     name: "Celso Barreto",
     role: "Docente • Presidência",
-    photo: "img/celso2.jpg",
+    photo: "public/celso2.jpg",
     lattesUrl: "https://lattes.cnpq.br/1499121169077928",
   },
   {
     name: "Anildo Mattos",
     role: "Docente • Presidência",
-    photo: "img/anildo.jpeg",
+    photo: "public/anildo.jpeg",
     lattesUrl: "https://lattes.cnpq.br/8305975929277094",
   },
   {
