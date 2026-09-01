@@ -1,0 +1,26 @@
+export const events = [
+  {
+    type: "Oficina",
+    duration: "2h",
+    title: "Git e GitHub na prática",
+    description: "Branch, pull request e revisão com mini-projeto.",
+    fullDescription: "Branch, pull request e revisão de código com um mini-projeto.",
+    date: "a definir",
+    ctaLabel: "Ver todos",
+    ctaHref: "eventos.html",
+    pageCtaLabel: "Quero participar",
+    pageCtaHref: "cadastro.html",
+  },
+  {
+    type: "Palestra",
+    duration: "1h",
+    title: "Portfólio que abre portas",
+    description: "O que colocar, como apresentar e como evoluir.",
+    fullDescription: "O que colocar, como apresentar e como evoluir seus projetos.",
+    date: "a definir",
+    ctaLabel: "Receber aviso",
+    ctaHref: "cadastro.html",
+    pageCtaLabel: "Receber aviso",
+    pageCtaHref: "cadastro.html",
+  },
+];
