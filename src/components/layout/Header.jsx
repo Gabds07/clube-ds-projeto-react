@@ -16,7 +16,7 @@ export default function Header() {
       <div className="container header__inner">
         <Link className="brand" to="/" aria-label="Página inicial ClubeDS" onClick={closeMenu}>
           <span className="brand__logo" aria-hidden="true">
-            <img src="public/logo2.png" alt="Logo ClubeDS" />
+            <img src="logo2.png" alt="Logo ClubeDS" />
           </span>
           <span className="brand__text">
             <strong>ClubeDS</strong>
